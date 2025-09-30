@@ -9,8 +9,7 @@
 	
 	# Mount [from, mount_point]
 	# Setup script automatically prepares
-	# /run/media/$USER directory and creates symlink
-	# to $HOME/Mounted
+	# /run/media/$USER directory
 	mount=["/home/user", "/run/media/$USER/<label>"]
 
 	
