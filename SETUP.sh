@@ -43,7 +43,7 @@ echo "=> Changing owner of /mnt/$USER to $USER"
 sudo chown $USER:sshfs /mnt/$USER
 
 echo ""
-echo "=> Creating symlink /mnt/$USER -> $HOME/Mounts"
-ln -s /mnt/$USER -> $HOME/Mounts
+echo "=> Creating symlink /mnt/$USER -> $HOME/Mounted"
+ln -s /mnt/$USER -> $HOME/Mounted
 
 
