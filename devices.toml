@@ -1,0 +1,17 @@
+["remote_storage"]
+	label="Remote"     	# Name of mount point
+	addr="192.168.1.1" 	# IP address or hostname
+	port="22"
+	user="user"
+	
+	# Identity file
+	id_file="$home/.ssh/id_file"
+	
+	# Mount [from, mount_point]
+	# Setup script automatically prepares
+	# /mnt/$USER directory and creates symlink
+	# to $HOME/Mounts
+	mount=["/home/user", "/mnt/$USER/<label>"]
+
+	
+
