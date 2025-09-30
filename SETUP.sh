@@ -46,4 +46,10 @@ echo ""
 echo "=> Creating symlink /mnt/$USER -> $HOME/Mounted"
 ln -s /mnt/$USER -> $HOME/Mounted
 
+echo ""
+echo "=> Creating symlink $HOME/.local/auto_sshfs/mount.sh -> $HOME/mount"
+ln -s $HOME/.local/auto_sshfs/mount.sh $HOME/mount
 
+echo ""
+echo "=> Creating symlink $HOME/.local/auto_sshfs/mount.sh -> /usr/bin/sshmnt"
+sudo ln -s $HOME/.local/auto_sshfs/mount.sh /usr/bin/sshmnt

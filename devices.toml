@@ -8,8 +8,6 @@
 	id_file="$home/.ssh/id_file"
 	
 	# Mount [from, mount_point]
-	# Setup script automatically prepares
-	# /run/media/$USER directory
 	mount=["/home/user", "/run/media/$USER/<label>"]
 
 	
