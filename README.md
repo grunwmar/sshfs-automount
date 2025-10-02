@@ -1,3 +1,5 @@
+**required packages:** `python3`, `python3-virtualenv`, `sshfs`, (`curl` or `wget`)
+
 Install using `curl`
 ```sh
 curl -fsSL https://raw.githubusercontent.com/grunwmar/sshfs-automount/refs/heads/main/NET_INSTALL.sh | bash -s -- -i
