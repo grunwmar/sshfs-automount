@@ -1,7 +1,7 @@
 #!/bin/bash
 cd $HOME/.local/auto_sshfs
 
-if [[ $1 = "--edit-device-list" ]] || [[ $1 = "-e" ]]; then
+if [[ $1 = "edit-list" ]] || [[ $1 = "-e" ]]; then
     nano devices.toml
     exit
 fi
